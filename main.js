@@ -109,10 +109,10 @@ window.addEventListener('DOMContentLoaded', () => {
             tile.classList.remove('playerO');
         });
     }
-    //tlačítko pro restartování hry
+   //X O při kliknutí
     tiles.forEach( (tile, index) => {
         tile.addEventListener('click', () => userAction(tile, index));
     });
-
+    //tlačítko pro restartování hry
     resetButton.addEventListener('click', resetBoard);
 });
