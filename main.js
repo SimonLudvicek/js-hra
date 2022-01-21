@@ -76,7 +76,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const updateBoard =  (index) => {
         board[index] = currentPlayer;
     }
-    //konstanta pro změnu hráče po výhře
+    //konstanta pro změnu hráče 
     const changePlayer = () => {
         playerDisplay.classList.remove(`player${currentPlayer}`);
         currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
